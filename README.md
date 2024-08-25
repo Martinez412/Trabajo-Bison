@@ -1,6 +1,6 @@
 Integrantes:
 
-Bryan Ariza
-Andres Toledo
-Juan Wilches
-Manuel Cardenas
+- Bryan Ariza
+- Andres Toledo
+- Juan Wilches
+- Manuel Cardenas

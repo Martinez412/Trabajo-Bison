@@ -20,5 +20,7 @@ Instalacion de Bison en linux:
          
 *Para asegurarte de que Bison se ha instalado correctamente puedes verificar su versión
 
+
+
          bison --version
          

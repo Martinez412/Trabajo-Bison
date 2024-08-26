@@ -16,11 +16,12 @@ Instalacion de Bison en linux:
 -Luego de eso Instala Bison y Flex para eso usa el siguiente comando para instalarlo 
 
          sudo apt install bison
-         sudo apt-get install flex bison
+         sudo apt-get install bison flex
          
 -Para asegurarte de que Bison se ha instalado correctamente puedes verificar su versión
                 
         bison --version
+        flex  --version
 
 COMPILACION Y EJECUCION
 
@@ -48,7 +49,7 @@ FUNCIONAMIENTO DE LA CALCULADORA
 
 Para entender el funcionamiento de la calculadora el usuario introduce una expresión matemática, por ejemplo:
 
-          3 + 5 * (2 - 8)
+         ./calculadora 3 + 5 * (2 - 8) 
           
   Flex divide la entrada en tokens: NUMERO(3), SUMA(+), NUMERO(5), MULTIPLICACION(*), PARENIZQ((), NUMERO(2), RESTA(-), NUMERO(8), PARENDER()).   
 

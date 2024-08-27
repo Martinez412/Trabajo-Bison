@@ -66,7 +66,11 @@ Este ejemplo tiene un paréntesis de apertura sin su correspondiente paréntesis
 Este ejemplo tiene un paréntesis de cierre sin su correspondiente paréntesis de apertura.        
 
            A + B
-Uso de caracteres no reconocidos (suponiendo que solo se permiten números y operadores aritméticos)       
+Uso de caracteres no reconocidos (suponiendo que solo se permiten números y operadores aritméticos)   
+
+           5  +  #
+Aquí, 5 es un número válido, + es un operador aritmético válido pero # no es un operador válido ni un número, por lo que debería provocar un error de sintaxis.
+
 
 TONKENZICACION
 

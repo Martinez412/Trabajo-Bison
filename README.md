@@ -53,10 +53,12 @@ Para entender el funcionamiento de la calculadora el usuario introduce una expre
           
   Flex divide la entrada en tokens: NUMERO(3), SUMA(+), NUMERO(5), MULTIPLICACION(*), PARENIZQ((), NUMERO(2), RESTA(-), NUMERO(8), PARENDER()).  
 
-  Otro ejemplo de uso seria el siguente comando que funciona a la perfeccion
+  Otros ejemplos de uso seria el siguente comando que funciona a la perfeccion
 
            ./calculadora 3 + 2
            
+
+            ./calculadora 1 / 3 * 5
 
 TONKENZICACION
 

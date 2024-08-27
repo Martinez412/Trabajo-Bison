@@ -56,9 +56,17 @@ Para entender el funcionamiento de la calculadora el usuario introduce una expre
   Otros ejemplos de uso seria el siguente comando que funciona a la perfeccion
 
            ./calculadora 3 + 2
-           
 
-            ./calculadora 1 / 3 * 5
+   Ahora estan tambien los casos de errores de sintaxis que en teoria provocara un error pero no debe de hacerlo la calculadora algunos de estas operaciones son las siguentes:
+
+           5 + ( 3 * 2
+Este ejemplo tiene un paréntesis de apertura sin su correspondiente paréntesis de cierre.        
+           
+           4  +  7 )
+Este ejemplo tiene un paréntesis de cierre sin su correspondiente paréntesis de apertura.        
+
+           A + B
+Uso de caracteres no reconocidos (suponiendo que solo se permiten números y operadores aritméticos)       
 
 TONKENZICACION
 
